@@ -10,7 +10,8 @@
 
     --nav-background-color: #FEF9EF;
     --nav--link-color: #17C3B2;
-    --nav-hover-link-color: #17C3B2;--nav-hover-background-color: #FFCB77;
+    --nav-hover-link-color: #17C3B2;
+    --nav-hover-background-color: #FFCB77;
 }
 
 body {
@@ -19,7 +20,7 @@ body {
     padding: 20px;
 }
 
-h1,h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
 }
 

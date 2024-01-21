@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Didact+Gothic&display=swap');
+:root {
+    --primary-color: #227C9D;
+    --secibdary-color: #FEF9EF;
+    --accent1-color: #17C3B2;
+    --accent2-color: #FFCB77;
+
+    --heading-font: 'Caveat Brush', serif;
+    --paragraph-font: 'Didact Gothic', serif;
+
+    --nav-background-color: #FEF9EF;
+    --nav--link-color: #17C3B2;
+    --nav-hover-link-color: #17C3B2;--nav-hover-background-color: #FFCB77;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav--link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav--link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}

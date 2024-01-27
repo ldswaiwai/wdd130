@@ -1,5 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 nav {
-    background-color: steelblue;
+    background-color: cornflowerblue;
     padding: 10px;
 }
 
@@ -10,14 +15,22 @@ nav a {
 }
 
 h1 {
-    color: steelblue;
+    color: cornflowerblue;
+}
+
+main {
+    width: 50rem;
+    font-size: 20px;
+    padding: 1rem;
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid white;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
@@ -25,13 +38,15 @@ p {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); 
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+
+aside h2{
+    position: absolute;
+    top: 25px;
+    left: 150px;
 }
 
 aside img {
@@ -44,3 +59,17 @@ footer {
     border-top: 1px dotted #000;
     text-align: center;
 }
+
+/* Class Setectors */
+
+.box {
+    margin: 1rem;
+    border: 3px dashed midnightblue;
+    padding: 1rem;
+    background-color: cornflowerblue;
+    color: midnightblue;
+    clear: right;
+}
+.indent {
+    padding-left: 2rem;
+ }

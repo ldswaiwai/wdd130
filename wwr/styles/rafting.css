@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Didact+Gothic&display=swap');
+:root {
+    --primary-color: royalblue;
+    --secondary-color: #FEF9EF;
+    --accent1-color: #17C3B2;
+    --accent2-color: #FFCB77;
+
+    --heading-font: 'Caveat Brush', serif;
+    --paragraph-font: 'Didact Gothic', serif;
+
+    --nav-background-color: #FEF9EF;
+    --nav--link-color: #17C3B2;
+    --nav-hover-link-color: #17C3B2;
+    --nav-hover-background-color: #FFCB77;
+}
+
+* {
+    max-width: 960px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    font-size: 1.2rem;
+}
+
+.hero { 
+    position: relative;
+}
+
+.hero img {
+    margin:0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    top: 20px;
+    padding: 1px;
+    width: 100%;
+    text-align: center;
+    background-color:rgba(00,00,00,0.5);
+    
+}
+
+article {
+    position: absolute;
+    background-color:rgba(65, 105, 255, 0.3) ;
+    width: 80%;
+    top: 120px;
+    left: 90px;
+    padding: 10px;
+    color: white;
+}
+
+#happy-client {
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav--link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+

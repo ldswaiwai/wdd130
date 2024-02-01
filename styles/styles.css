@@ -84,9 +84,9 @@ header, .grid, footer {
 
 .box {
     margin: 0rem;
-    border: 3px dashed midnightblue;
+    border: 2px dashed cornflowerblue;
     padding: 1rem;
-    background-color: cornflowerblue;
+    background-color: lavender;
     color: midnightblue;
     clear: right;
 }

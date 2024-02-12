@@ -250,6 +250,7 @@ label, input, button, select, textarea {
 label, form >p {
     font-size: 1.3rem;
     font-weight: bold;
+    margin:0;
 }
 input, textarea {
     padding: 1.5px;
